@@ -22,7 +22,7 @@
 
     /* Custom  */
 
-main {
+main , header , footer{
     color: var(--darkCyan);
 }
 
@@ -42,6 +42,7 @@ nav {
     position: relative;
     align-items: center;
     margin: 20px;
+    justify-content: space-between;
 }
 
 nav a{
@@ -60,7 +61,7 @@ nav a{
         width: 100px;
     }
     nav a {
-        padding: 5px 10px;
+        padding: 5px 10px !important;
     }
 }
     /* End nav */
@@ -407,7 +408,7 @@ div.ready {
         margin: 70px auto;
         margin-bottom: 550px;
 }
-.ready h1 {
+.ready h2 {
     margin: 30px;
     font-weight: 700;
 }
@@ -496,13 +497,13 @@ footer p {
     font-weight: 500;
 }
 
-footer .footer-left input:first-child {
+footer .footer-left input{
     height: 35px;
     border-radius: 5px;
     padding: 10px;
     border: none;
 }
-footer .footer-left input:last-child {
+footer .footer-left button {
     height: 35px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -510,6 +511,7 @@ footer .footer-left input:last-child {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     padding: 10px;
+    margin: 10px;
     background-color: var(--lightPink);
     color: white;
     border: none;
